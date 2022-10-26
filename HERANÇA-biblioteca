@@ -1,1 +1,25 @@
+class Escola():
+    def __init__(self, nome, telefone, endereco):
+        self.nome = nome
+        self.telefone = telefone
+        self.endereco = endereco
 
+    def aulas(self):
+        print(f"A escola {self.nome} tem otimas aulas com professores qualificados")
+
+
+class Professor(Escola):
+
+    def ensinar(self):
+        print("Temos excelentes profissionais,todos com Pos-Doutorado.")
+ 
+class Quadra(Escola):
+ 		
+ 		def jogar(self):
+ 			print(f" Temos ambientes de jogos de ótimas qualidades e com bastante dinamicas para os nossos alunos se divertir e aprender ao mesmo temo")
+ 			
+ 				
+ 					
+class Aluno(Escola):
+		def nota(self):
+			print("Ensinamos nossos alunos para ser o destaque nos desafio que a vida dos estudo exige ")
