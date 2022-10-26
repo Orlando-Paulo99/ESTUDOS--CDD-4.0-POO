@@ -13,5 +13,7 @@ q1=Quadra("Pátio","terreo","Primeira a Direita")
 q1.jogar()
 
 a1=Aluno("Paulo","18 anos","Nova Descoberta")
-print(f"{a1.nome} foi o nosso alunos destaque desse ano,onde ele conseguiu atingir a melhor nota do ENEM e conseguiu ingressar na faculdade dos EUA e irá cursar Ciência da Computação")
+print(f"{a1.nome} foi o nosso alunos destaque desse ano,onde ele conseguiu atingir a melhor nota do ENEM e conseguiu ingressar na faculdade dos EUA e irá curasar Ciência da Computação")
 a1.nota()
+
+a1.media(10,10)
