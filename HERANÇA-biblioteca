@@ -23,3 +23,16 @@ class Quadra(Escola):
 class Aluno(Escola):
 		def nota(self):
 			print("Ensinamos nossos alunos para ser o destaque nos desafio que a vida dos estudo exige ")
+		def media(self,n1,n2):
+			
+			soma=(n1+n2) /2
+			if soma < 5:
+				print(f"{self.nome} foi reprovado")
+			elif soma ==5:
+				print(f"{self.nome} ficou em recuperação")
+			else:
+				print(f"{self.nome} foi Aprovado")
+				
+			
+			
+			print(f"A media de {self.nome} foi: ",soma)
