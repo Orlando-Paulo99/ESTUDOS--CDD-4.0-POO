@@ -1,0 +1,6 @@
+a4=Ciclista("88kg")
+print(f"o nadador tem {a4.peso}")
+a4.pedalar()
+a4.aquecer()
+a4.aposentar()
+
